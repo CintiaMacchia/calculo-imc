@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@300&family=Roboto:ital,wght@0,300;1,300;1,700&family=Ubuntu:wght@400;700&display=swap');
+body {
+    background-image: url("imagens/fundojpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#titulo {
+    font-size: 80px;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: rgb(84, 32, 133);
+    margin-top: 50px;
+}
+
+#calculo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#valor input {
+    font-size: 25px;
+    color: rgb(84, 32, 133);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+#balanca {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#resultado a {
+    font-size: 25px;
+    color: rgb(84, 32, 133);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    width: 40%;
+    border: solid 1px black
+}
+
+#resultado {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    text-align: center;
+}
